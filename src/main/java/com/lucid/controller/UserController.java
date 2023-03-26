@@ -102,7 +102,7 @@ public class UserController {
             return ResponseEntity.ok(userManager.findUser(mailId));
         }
         else {
-            return new ResponseEntity<>("User Not found on given mailId",HttpStatus.BAD_REQUEST);
+            return new ResponseEntity<>("User Not found on given mailId123",HttpStatus.BAD_REQUEST);
         }
     }
 
