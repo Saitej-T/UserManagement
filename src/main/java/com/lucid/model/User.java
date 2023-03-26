@@ -1,8 +1,9 @@
 package com.lucid.model;
 
+import com.mongodb.lang.NonNull;
 import lombok.*;
 import org.springframework.data.annotation.Id;
-import org.springframework.lang.NonNull;
+import org.springframework.data.mongodb.core.index.Indexed;
 
 @Getter
 @Setter

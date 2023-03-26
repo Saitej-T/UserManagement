@@ -8,6 +8,6 @@ import lombok.Setter;
 public class UserQueryData {
     private  String userName;
     private String status;
-    public Integer pageNo;
+    public int pageNo;
 
 }
